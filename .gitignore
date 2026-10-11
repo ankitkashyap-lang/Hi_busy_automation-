@@ -1,0 +1,98 @@
+# ==========================================
+# Environment & Secrets (NEVER COMMIT)
+# ==========================================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# ==========================================
+# Dependencies & Package Managers
+# ==========================================
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ==========================================
+# Playwright & Test Execution Artifacts
+# ==========================================
+/test-results/
+/playwright-report/
+/reports/
+/allure/
+/allure-report/
+/allure-results/
+/screenshots/
+/traces/
+/videos/
+/logs/
+/downloads/
+/empty_report/
+*.log
+npm-debug.log*
+
+# ==========================================
+# Media & Assets Generated During Runs
+# ==========================================
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.tmp
+temp/
+
+# ==========================================
+# Authentication & Session States
+# ==========================================
+storageState/*.json
+!storageState/.gitkeep
+
+# ==========================================
+# Temporary Scratch, Dumps & Exploratory Files
+# ==========================================
+scratch/
+*_html.txt
+*_snapshot.html
+email_preview.html
+check_title.js
+dump_toggle.js
+dump_user_dialog.js
+dump_user_dom.js
+dump_users_grid.js
+find_colors.js
+find_muiswitch.js
+find_switch_struct.js
+original.js
+parse_buttons.js
+parse_grid.js
+parse_html.js
+parse_toggle.js
+test_switch_vis.js
+generate_tests.js
+
+# ==========================================
+# Test Data Files (Containing Real Data)
+# ==========================================
+test-data/*.xlsx
+data/*.xlsx
+!test-data/template/
+
+# ==========================================
+# IDE & System Files
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Agent & Tool Metadata
+# ==========================================
+.agents/
+.playwright-mcp/
+
