@@ -139,8 +139,8 @@ hi-busy-automation/
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/ankitkashyap-lang/hi-busy-automation.git
-cd hi-busy-automation
+git clone https://github.com/ankitkashyap-lang/Hi_busy_automation-.git
+cd Hi_busy_automation-
 
 # 2. Install dependencies
 npm install
